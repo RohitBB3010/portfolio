@@ -1,5 +1,7 @@
 @import './constants/colors.css';
 
 body{
+    margin: 0;
+    padding: 0;
     background-color : var(--primary3);
 }

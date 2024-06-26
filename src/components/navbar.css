@@ -1,0 +1,35 @@
+@import '../constants/colors.css';
+
+@font-face {
+    font-family: 'Jet Brains';
+    src: url('../fonts/JetBrainsMonoNL-Regular.ttf');
+}
+
+.navbar{
+    border: solid #ffff 1px;
+    padding: 0;
+    margin: 4vh 10vw;
+    border-radius: 50rem;
+    background-color: var(--primary1);
+}
+
+.navbar_list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar_list li{
+    color: #ffffff;
+    list-style: none;
+    font-size: 1.5rem;
+    font-family: 'Jet Brains';
+    padding: 0.5vh 1vw;
+}
+
+#navbar_heading{
+    color: var(--secondary3);
+    font-size: 2.5rem;
+}
