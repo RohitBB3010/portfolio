@@ -12,7 +12,7 @@ const Socials = () => {
         <a href = "https://www.linkedin.com/in/rohit-bhandwalkar/" target="_blank">
             < FaLinkedin className="icons"> </FaLinkedin>
         </a>
-        <div className="vertical_line1"> </div>
+        <div className="vertical_line2"> </div>
         </div>
     );
 }

@@ -7,7 +7,8 @@
 .vertical_line1{
     border: solid 2px white;
     width: 0;
-    height: 50vh;
+    height: 35vh;
+    margin-top: 3vh;
 }
 
 .icons{
@@ -15,4 +16,10 @@
     height: 5vh;
     margin: 2vh 0;
     color: white;
+}
+
+.vertical_line2{
+    border: solid 2px white;
+    width: 0;
+    height: 25vh;
 }

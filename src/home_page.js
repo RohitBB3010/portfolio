@@ -34,9 +34,7 @@ const HomePage = () => {
             Welcome to my developer portfolio! Dive into a world of innovative projects, cutting-edge skills, and a passion for creating exceptional digital experiences.
             </div>
             </div>
-          
-                <img src="/ellipse.png" alt = ""/>
-            
+            <img src="/ellipse.png" alt = ""/>  
         </div>
     );
 }
