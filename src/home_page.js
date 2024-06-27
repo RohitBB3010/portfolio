@@ -18,6 +18,7 @@ const HomePage = () => {
 
     return(
         <div className="home_page">
+            <div className="left">
             <div className="name">
                 Hello!!! I'm Rohit Bharat Bhandwalkar
             </div>
@@ -32,6 +33,10 @@ const HomePage = () => {
             <div className="info"> 
             Welcome to my developer portfolio! Dive into a world of innovative projects, cutting-edge skills, and a passion for creating exceptional digital experiences.
             </div>
+            </div>
+          
+                <img src="/ellipse.png" alt = ""/>
+            
         </div>
     );
 }
