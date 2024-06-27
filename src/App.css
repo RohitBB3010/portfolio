@@ -5,3 +5,13 @@ body{
     padding: 0;
     background-color : var(--primary3);
 }
+
+.pages{
+    margin: 0;
+    padding: 0;
+}
+
+.App{
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -6,7 +6,7 @@
 }
 
 .home_page{
-    margin: 10vh 10vw;
+    margin: 10vh 0;
 }
 
 .name{
@@ -41,16 +41,19 @@
     display: inline;
 }
 
-.role_animation div{
-    display: inline;
+.role{
+    color: var(--light1);
     font-size: 2rem;
     font-family: 'Jet Brains';
 }
 
-#role{
-    color: var(--light1);
-}
-
 #developer{
     color: var(--secondary3);
+}
+
+.info{
+    width: 50vw;
+    margin-top: 5vh;
+    color: var(--light1);
+    font-size: 1.5rem;
 }
