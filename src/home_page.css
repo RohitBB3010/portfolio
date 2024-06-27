@@ -2,14 +2,14 @@
 
 .home_page{
     margin: 10vh 10vw;
-    padding: 1vh 3vw;
-    display: inline-block;
-    border: solid #fff 2px;
-    border-radius: 25rem;
 }
 
-
-.intro{
-    color: var(--light1);
-    font-size: 2rem;
+.name{
+    color: #fff;
+    padding: 1vh 2vw;
+    border: solid #fff 1px;
+    border-radius: 25rem;
+    display: inline-block;
+    font-size: 1.5rem;
+    background-color: var(--primary1);
 }

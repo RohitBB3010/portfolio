@@ -4,8 +4,8 @@ const HomePage = () => {
 
     return(
         <div className="home_page">
-            <div className="intro">
-                Hello!! I'm Rohit Bharat Bhandwalkar
+            <div className="name">
+                Hello!!! I'm Rohit Bharat Bhandwalkar
             </div>
         </div>
     );
