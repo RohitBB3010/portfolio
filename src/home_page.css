@@ -1,0 +1,15 @@
+@import './constants/colors.css';
+
+.home_page{
+    margin: 10vh 10vw;
+    padding: 1vh 3vw;
+    display: inline-block;
+    border: solid #fff 2px;
+    border-radius: 25rem;
+}
+
+
+.intro{
+    color: var(--light1);
+    font-size: 2rem;
+}
