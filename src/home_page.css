@@ -13,3 +13,25 @@
     font-size: 1.5rem;
     background-color: var(--primary1);
 }
+
+.profession{
+    margin: 2vh 0;
+}
+
+#first_text{
+    color: var(--light1);
+    font-size: 5rem;
+    display: inline;
+}
+
+#second_text{
+    color: var(--secondary3);
+    font-size: 5rem;
+    display: inline;
+}
+
+#third_text{
+    color: #fff;
+    font-size: 5rem;
+    display: inline;
+}
