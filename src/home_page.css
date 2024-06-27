@@ -1,5 +1,10 @@
 @import './constants/colors.css';
 
+@font-face {
+    font-family: 'Jet Brains';
+    src: url('./fonts/JetBrainsMonoNL-Regular.ttf');
+}
+
 .home_page{
     margin: 10vh 10vw;
 }
@@ -34,4 +39,18 @@
     color: #fff;
     font-size: 5rem;
     display: inline;
+}
+
+.role_animation div{
+    display: inline;
+    font-size: 2rem;
+    font-family: 'Jet Brains';
+}
+
+#role{
+    color: var(--light1);
+}
+
+#developer{
+    color: var(--secondary3);
 }
