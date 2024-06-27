@@ -7,10 +7,13 @@
 
 .navbar{
     border: solid #ffff 1px;
+    width: 80vw;
     padding: 0;
-    margin: 4vh 10vw;
+    margin: 4vh auto;
     border-radius: 50rem;
     background-color: var(--primary1);
+    display: flex;
+    align-self: center;
 }
 
 .navbar_list{
@@ -19,6 +22,7 @@
     padding: 0;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
 
 .navbar_list li{
