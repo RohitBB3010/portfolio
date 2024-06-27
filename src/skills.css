@@ -1,0 +1,5 @@
+@import './constants/colors.css';
+
+#skills{
+    color: var(--light1);
+}

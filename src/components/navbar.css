@@ -25,20 +25,15 @@
     width: 100%;
 }
 
-.navbar_list li{
-    list-style: none;
-}
-
-.navbar_items{
-    color: #ffffff;
-    list-style: none;
-    font-size: 1.5rem;
-    font-family: 'Jet Brains';
-    padding: 0.5vh 1vw;
+.navbar_items {
     text-decoration: none;
+    color: var(--light1);
+    font-size: 1.5rem;
+    padding: 0.5vh 1vw;
+    font-family: 'Jet Brains';
 }
 
 #navbar_heading{
+    font-size: 2rem;
     color: var(--secondary3);
-    font-size: 2.5rem;
 }

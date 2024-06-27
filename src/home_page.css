@@ -68,7 +68,7 @@
 #resume{
     text-decoration: none;
     padding: 1.2vh 1.2vw;
-    margin: 3vh auto;
+    margin: 5vh auto;
     background: linear-gradient(45deg, var(--secondary1), var(--secondary3));
     color: white;
     border-radius: 5px;

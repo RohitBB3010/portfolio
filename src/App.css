@@ -9,9 +9,12 @@ body{
 .pages{
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .App{
     display: flex;
     justify-content: space-evenly;
+    min-height: 100vh;
 }
