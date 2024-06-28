@@ -4,6 +4,7 @@ import Socials from './components/socials';
 import { BrowserRouter as Router } from 'react-router-dom';
 import HomePage from './home_page';
 import Skills from './skills';
+import Experience from './experience';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       <div className="pages">
       <Navbar/>
       <HomePage/>
-      <Skills></Skills>
+      <Skills/>
+      <Experience/>
       </div>
     </div>
     </Router>

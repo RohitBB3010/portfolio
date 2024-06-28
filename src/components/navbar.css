@@ -2,41 +2,8 @@
 
 @font-face {
     font-family: 'Jet Brains';
-    src: url('../fonts/JetBrainsMonoNL-Regular.ttf');
+    src: url('../../public/fonts/JetBrainsMonoNL-Regular.ttf');
 }
-/* 
-.navbar{
-    border: solid #ffff 1px;
-    width: 80vw;
-    padding: 0;
-    margin: 4vh auto;
-    border-radius: 25rem;
-    background-color: var(--primary1);
-    display: flex;
-    align-self: center;
-}
-
-.navbar_list{
-    display: flex;
-    margin: 0;
-    padding: 0;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-}
-
-.navbar_items {
-    text-decoration: none;
-    color: var(--light1);
-    font-size: 1.5rem;
-    padding: 0.5vh 1vw;
-    font-family: 'Jet Brains';
-}
-
-#navbar_heading{
-    font-size: 2rem;
-    color: var(--secondary3);
-} */
 
 .navbar{
     padding-bottom: 2vh;
@@ -50,7 +17,6 @@
 
 .navbar_left{
     color: var(--secondary2);
-    font-family: 'Jet Brains Mono';
     font-size: 2.5rem;
 }
 

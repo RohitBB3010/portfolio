@@ -35,7 +35,7 @@ const HomePage = () => {
             </div>
             <a href = "https://drive.google.com/file/d/1Z86am44XEwJF6zeXfZsWZ4TR_wd5OK0F/view" id = "resume" target = "_blank"> Resume </a>
             </div>
-            <img src="/ellipse.png" alt = ""/>  
+            <img src="/ellipse.png" alt = "" className="image"/>  
         </div>
     );
 }
