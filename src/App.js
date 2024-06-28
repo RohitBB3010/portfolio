@@ -5,6 +5,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import HomePage from './home_page';
 import Skills from './skills';
 import Experience from './experience';
+import Education from './education';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <HomePage/>
       <Skills/>
       <Experience/>
+      <Education/>
       </div>
     </div>
     </Router>

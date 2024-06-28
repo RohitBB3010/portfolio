@@ -1,1 +1,14 @@
 
+.education{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: 2vh auto;
+    justify-content: center;
+}
+
+#title{
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--light1);
+}
