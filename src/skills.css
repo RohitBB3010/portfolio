@@ -2,7 +2,7 @@
 
 .skills{
     color: var(--light1);
-    margin: 2vh 8vw;
+    margin: 0 8vw 2vh 8vw;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -16,7 +16,7 @@
 }
 
 .tools_title{
-    margin : 1.5vh auto;
+    margin : 4vh auto 0 auto;
     font-size: 3rem;
     display: block;
     font-family: 'Jet Brains';
@@ -24,7 +24,7 @@
 
 .professional_skillset{
     display: flex;
-    margin: 2vh auto;
+    margin: 0 auto 2vh auto;
     width: 80vw;
     justify-content: space-around;
 }
@@ -37,7 +37,7 @@
 
 .tools_set{
     display: flex;
-    margin: 1vh auto;
+    margin: 2vh auto;
 }
 
 .tools_icons{
