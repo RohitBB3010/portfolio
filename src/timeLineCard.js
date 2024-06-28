@@ -2,7 +2,7 @@ import React from 'react';
 import { TimelineItem, TimelineOppositeContent, TimelineSeparator, TimelineConnector, TimelineDot, TimelineContent } from '@mui/lab';
 import { Typography } from '@mui/material';
 
-const TimeLineCard = ({timeLine, institute, cgpa}) => {
+const TimeLineCard = ({timeLine, institute, cgpa, icon, cgpaPosition}) => {
       
     return (
             <TimelineItem>
@@ -16,11 +16,11 @@ const TimeLineCard = ({timeLine, institute, cgpa}) => {
                     {timeLine}
                 </TimelineOppositeContent>
                 <TimelineSeparator>
-                    <TimelineConnector/>
-                    <TimelineDot/>
-                    <TimelineConnector/>
+                    <TimelineConnector sx={{minHeight:"5vh"}}/>
+                    <TimelineDot> {icon} </TimelineDot>
+                    <TimelineConnector sx={{minHeight:"5vh"}}/>
                 </TimelineSeparator>
-                <TimelineContent>
+                <TimelineContent sx={{display : "flex", alignItems : {cgpaPosition}, flexDirection : "column", justifyContent : "center"}}>
                     <Typography color="white" fontSize={"1.5rem"}> {institute} </Typography>
                     <Typography color="white" fontSize={"1rem"}> {cgpa} </Typography>
                 </TimelineContent>

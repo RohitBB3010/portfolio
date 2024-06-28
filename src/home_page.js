@@ -30,7 +30,7 @@ const HomePage = () => {
             <div className="role">
                 {roles[roleIndex]}
             </div>
-            <div className="info"> 
+            <div className="intro"> 
             Welcome to my developer portfolio! Dive into a world of innovative projects, cutting-edge skills, and a passion for creating exceptional digital experiences.
             </div>
             <a href = "https://drive.google.com/file/d/1Z86am44XEwJF6zeXfZsWZ4TR_wd5OK0F/view" id = "resume" target = "_blank"> Resume </a>
