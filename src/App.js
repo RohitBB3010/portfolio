@@ -7,6 +7,7 @@ import Skills from './skills';
 import Experience from './experience';
 import Education from './education';
 import Projects from './projects';
+import Connect from './connect_page';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Experience/>
       <Education/>
       <Projects/>
+      <Connect/>
       </div>
     </div>
     </Router>
