@@ -15,7 +15,6 @@ function App() {
     <Router>
       <div className="App">
       <div className="socials">
-        {/* <Socials></Socials> */}
       </div>
       <div className="pages">
       <Navbar/>
