@@ -8,6 +8,7 @@ import Experience from './experience';
 import Education from './education';
 import Projects from './projects';
 import Connect from './connect_page';
+import Footer from './footer';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Education/>
       <Projects/>
       <Connect/>
+      <Footer/>
       </div>
     </div>
     </Router>
