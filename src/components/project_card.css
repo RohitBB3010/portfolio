@@ -1,0 +1,63 @@
+.projectCard{
+    width: 30vw;
+    border: solid 1px white;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary1);
+    flex-direction: column;
+    padding: 1.5vh 0.5vw;
+    margin: 1.1vh 0.6vw;
+}
+
+#project_title{
+    text-align: center;
+    width: 28vw;
+    margin : 0 auto 1vh auto;
+    font-size: 1.5rem;
+    padding-bottom: 1vh;
+    font-family: 'Jet Brains';
+    border-bottom: solid 1px grey;
+}
+
+#techStack{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1vh;
+}
+
+#stack_title{
+    font-size: 1.3rem;
+}
+
+#description{
+    font-size: 1rem;
+    margin-bottom: 1vh;
+}
+
+.github-link {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap; /* Ensure no wrapping by default */
+}
+
+.link-container {
+    display: flex;
+    align-items: center;
+    width: 26vw;
+}
+
+.colon {
+    margin-right: 0.5vw;
+}
+
+.link {
+    font-size: 1rem;
+    word-wrap: break-word; 
+    white-space: nowrap;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    max-width: 100%;
+}

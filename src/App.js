@@ -6,6 +6,7 @@ import HomePage from './home_page';
 import Skills from './skills';
 import Experience from './experience';
 import Education from './education';
+import Projects from './projects';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Skills/>
       <Experience/>
       <Education/>
+      <Projects/>
       </div>
     </div>
     </Router>

@@ -1,5 +1,9 @@
 @import './constants/colors.css';
 
+*{
+    color: var(--light1);
+}
+
 body{
     margin: 0;
     padding: 0;
