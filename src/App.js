@@ -1,16 +1,11 @@
 import './App.css';
 import Navbar from './components/navbar';
-import Socials from './components/socials';
 import { BrowserRouter as Router } from 'react-router-dom';
-import HomePage from './home_page';
-import Skills from './skills';
-import Experience from './experience';
-import Education from './education';
-import Projects from './projects';
-import Connect from './connect_page';
+import AnimatedRoutes from './components/routes';
 import Footer from './footer';
 
 function App() {
+
   return (
     <Router>
       <div className="App">
@@ -18,12 +13,7 @@ function App() {
       </div>
       <div className="pages">
       <Navbar/>
-      <HomePage/>
-      <Skills/>
-      <Experience/>
-      <Education/>
-      <Projects/>
-      <Connect/>
+        <AnimatedRoutes/>
       <Footer/>
       </div>
     </div>

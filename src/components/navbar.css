@@ -5,14 +5,20 @@
     src: url('../../public/fonts/JetBrainsMonoNL-Regular.ttf');
 }
 
-.navbar{
-    padding-bottom: 2vh;
+
+.navbar {
+    padding: 2vh 5vw; /* Adjusted padding to ensure enough space for all items */
+    width: 100%; /* Ensure the navbar takes the full width of the screen */
+    background-color: rgba(11,11,11,0.98); /* Ensure the background color covers the content */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 3vh auto 0 auto;
-    width: 80vw;
-    border-bottom: solid 2px rgba(255, 255, 255, 0.5);
+    border-bottom: solid 2px rgba(255, 255, 255, 0.5); /* Optional border */
+    position: fixed;
+    top: 0; /* Ensure the navbar stays at the top */
+    left: 0;
+    z-index: 1000; /* Ensure the navbar stays on top */
+    box-sizing: border-box;
 }
 
 .navbar_left{
