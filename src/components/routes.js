@@ -5,6 +5,7 @@ import Experience from '../experience';
 import Education from '../education';
 import Projects from '../projects';
 import Connect from '../connect_page';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const AnimatedRoutes = () => {
     const location = useLocation();
@@ -15,7 +16,7 @@ const AnimatedRoutes = () => {
             <div id = "/skills"> <Skills /> </div>
             <div id = "/experience"> <Experience/> </div>
             <div id = "/education"> <Education/> </div>
-            <div id = "/projects"> <Projects/> </div>
+            <div id = "/projects"> <Projects/> </div> 
             <div id = "/connect"> <Connect/> </div>
         </div>
     );
