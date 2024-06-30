@@ -7,17 +7,17 @@
 
 
 .navbar {
-    padding: 2vh 5vw; /* Adjusted padding to ensure enough space for all items */
-    width: 100%; /* Ensure the navbar takes the full width of the screen */
-    background-color: rgba(11,11,11,0.98); /* Ensure the background color covers the content */
+    padding: 2vh 5vw; 
+    width: 100%;
+    background-color : rgba(11,11,11,0.98);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: solid 2px rgba(255, 255, 255, 0.5); /* Optional border */
+    border-bottom: solid 2px rgba(255, 255, 255, 0.5); 
     position: fixed;
-    top: 0; /* Ensure the navbar stays at the top */
+    top: 0;
     left: 0;
-    z-index: 1000; /* Ensure the navbar stays on top */
+    z-index: 1000; 
     box-sizing: border-box;
 }
 

@@ -6,8 +6,10 @@
 }
 
 .home_page{
-    margin: 20vh 8vw 10vh 8vw;
+    margin: 28vh 8vw 10vh 8vw;
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .left {
